@@ -1,0 +1,318 @@
+body{
+    margin:0px;
+    background-image: url("../images/b3.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+    width:100%;
+    height:1500px;
+}
+/*头部（页眉部分）*/
+#heading{
+    width:100%;
+    height:6%;
+    background-color: floralwhite;
+}
+/*头部网站标题设置*/
+#heading p{
+
+    font-family: 华文行楷;
+    font-size:50px;
+    color: darkred;
+    margin:0;
+}
+#heading span{
+    font-family: 华文行楷;
+    text-align:center;
+    font-size: 25px;
+    color: darkred;
+}
+/*头部导航栏*/
+#heading a{
+    text-decoration-line: none;
+    font-family: 华文琥珀;
+}
+/*本页的导航菜单*/
+#heading2{
+    height:2%;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#heading2 a{
+
+    text-decoration-line: none;
+    font-family: 华文琥珀;
+    color: darkgreen;
+}
+/*主体部分*/
+#con-body{
+    width:100%;
+    height:86%;
+}
+/*诗的正文字体*/
+ul li{
+    font-family:楷体;
+    font-size:16px;
+    color: darkgreen;
+    list-style-type:none;
+}
+/*按上下分的第一部分*/
+#body-1{
+    width:100%;
+    height:25%;
+}
+#body-1-a{
+    width:33%;
+    height:100%;
+    float:left;
+}
+/*诗的标题*/
+p{
+    font-family: 幼圆;
+    color: darkslategrey;
+}
+/*诗的作者*/
+span{
+    font-size:15px ;
+}
+/*第一部分的左侧部分*/
+#b1-a-1{
+    width:50%;
+    height:100%;
+    float:left;
+}
+
+#b1-a-2{
+    width:50%;
+    height:100%;
+    float:left;
+    margin-top:45px;
+}
+/*第一部分的中间部分*/
+#body-1-b{
+    width:33%;
+    height:100%;
+    float:left;
+}
+#b1-b-1{
+    width:50%;
+    height:100%;
+    float:left;
+}
+#b1-b-2{
+    width:50%;
+    height:100%;
+    float:left;
+    margin-top:45px;
+}
+/*第一部分的右侧部分*/
+#body-1-c{
+    width:33%;
+    height:100%;
+    float:left;
+}
+#b1-c-1{
+    margin-top:35px;
+    width:70%;
+    height:100%;
+    float:left;
+}
+/*第一部分最右侧文字格式调节*/
+#b1-c-1 ul li {
+    color: gray;
+}
+#b1-c-1 ul li span{
+    color: cadetblue;
+}
+#b1-c-2{
+    width:30%;
+    height:100%;
+    float:left;
+    margin-top:35px;
+
+}
+/*按上下分的第二部分*/
+#body-2{
+    width:100%;
+    height:25%;
+    float:left;
+}
+/*第二部分的最左侧*/
+#body-2-a{
+    width:33%;
+    height:100%;
+    float:left;
+}
+#b2-a-1{
+    width:50%;
+    height:100%;
+    float:left;
+}
+#b2-a-2{
+    width:50%;
+    height:100%;
+    float:left;
+    margin-top:60px;
+}
+/*第二部分的中间部分*/
+#body-2-b{
+    width:33%;
+    height:100%;
+    float:left;
+}
+#b2-b-1{
+    width:50%;
+    height:100%;
+    float:left;
+}
+#b2-b-2{
+    width:50%;
+    height:100%;
+    float:left;
+    margin-top:60px;
+}
+/*第二部分的右侧部分*/
+#body-2-c{
+    width:33%;
+    height:100%;
+    float:left;
+}
+#b2-c-1{
+    width:50%;
+    height:100%;
+    float:left;
+}
+#b2-c-2{
+    width:50%;
+    height:100%;
+    float:left;
+    margin-top:60px;
+}
+/*按上下分的第三部分*/
+#body-3{
+    width:100%;
+    height:25%;
+    float:left;
+}
+/*第三部分的左侧部分*/
+#body-3-a{
+    width:33%;
+    height:100%;
+    float:left;
+}
+#b3-a-1{
+    width:50%;
+    height:100%;
+    float:left;
+}
+#b3-a-2{
+    width:50%;
+    height:100%;
+    float:left;
+    margin-top:60px;
+}
+/*第三部分的中间部分*/
+#body-3-b{
+    width:33%;
+    height:100%;
+    float:left;
+}
+#b3-b-1{
+    width:60%;
+    height:100%;
+    float:left;
+}
+#b3-b-2{
+    width:40%;
+    height:100%;
+    float:left;
+    margin-top:60px;
+}
+/*第三部分的右侧部分*/
+#body-3-c{
+    width:33%;
+    height:100%;
+    float:left;
+}
+#b3-c-1{
+    width:60%;
+    height:100%;
+    float:left;
+}
+#b3-c-2{
+    width:40%;
+    height:100%;
+    float:left;
+    margin-top:60px;
+}
+/*按上下分的第四部分*/
+#body-4{
+    width:100%;
+    height:25%;
+    float:left;
+}
+/*第四部分的左侧部分*/
+#body-4-a{
+    width:33%;
+    height:100%;
+    float:left;
+}
+#b4-a-1{
+    width:50%;
+    height:100%;
+    float:left;
+}
+#b4-a-2{
+    width:50%;
+    height:100%;
+    float:left;
+    margin-top:60px;
+}
+/*第四部分的中间部分*/
+#body-4-b{
+    width:33%;
+    height:100%;
+    float:left;
+}
+#b4-b-1{
+    width:50%;
+    height:100%;
+    float:left;
+}
+#b4-b-2{
+    width:50%;
+    height:100%;
+    float:left;
+    margin-top:60px;
+}
+/*第四部分的右侧部分*/
+#body-4-c{
+    width:33%;
+    height:100%;
+    float:left;
+}
+#b4-c-1{
+    width:60%;
+    height:100%;
+    float:left;
+}
+#b4-c-2{
+    width:40%;
+    height:100%;
+    float:left;
+    margin-top:60px;
+}
+/*页脚*/
+#footing{
+    width:100%;
+    height:6%;
+    clear:both;
+    background-color: floralwhite;
+}
+#footing p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 华文行楷;
+    font-size:20px;
+}

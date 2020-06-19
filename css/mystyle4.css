@@ -1,0 +1,133 @@
+html{
+    height:950px;
+}
+body{
+    margin:0px;
+
+}
+#container{
+    width:100%;
+    height:950px;
+    background-image: url("../images/bg4.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*头部（页眉部分）*/
+#heading{
+    width:100%;
+    height:10%;
+    background-color: floralwhite;
+}
+/*头部网站标题设置*/
+#heading p{
+
+    font-family: 华文行楷;
+    font-size:50px;
+    color: darkred;
+    margin:0;
+}
+#heading span{
+    font-family: 华文行楷;
+    text-align:center;
+    font-size: 25px;
+    color: darkred;
+}
+/*头部导航栏*/
+#heading a{
+    text-decoration-line: none;
+    font-family: 华文琥珀;
+}
+/*主体部分*/
+#con-body{
+    height:80%;
+    width:100%;
+}
+/*主体的左半边*/
+#body-1{
+    height:100%;
+    width:60%;
+    float:left;
+    border-right:2px dashed rebeccapurple;
+
+}
+/*上*/
+#body-1-a{
+    height:40%;
+    width:100%;
+    float:left;
+}
+#body-1-a p{
+    text-align:center;
+    font-family:华文行楷;
+    font-size: 35px;
+    color: black;
+}
+#body-1-a ul li{
+    list-style-type:none;
+    text-align:center;
+    color: indigo;
+}
+#body-1-a ul li span{
+    text-decoration-line: underline;
+    color: firebrick;
+
+}
+.con/*外边距*/
+{
+    margin-right:100px;
+    margin-left:20px;
+
+}
+/*外边框*/
+.bd{
+    border-style: dotted;
+    border-radius: 30px;
+    color: black;
+    background-image: url("../images/bg.png");
+}
+/*内边距*/
+.pd{
+    padding:10px;
+}
+.content/*内容*/
+{
+    font-family:华文行楷;
+    font-size:18px;
+}
+/*下*/
+#body-1-b{
+    height:60%;
+    width:100%;
+    position: relative;
+    float:left;
+    text-align:center;
+}
+#body-1-b p{
+
+    font-size:35px;
+    font-family:华文行楷 ;
+}
+/*主体的右部分*/
+#body-2{
+    height:100%;
+    width:38%;
+    float:left;
+}
+#body-2 p{
+    font-family: 华文行楷;
+    font-size:20px;
+    margin-left: 10px;
+    color: forestgreen;
+}
+/*页脚*/
+#footing{
+    height:10%;
+    width:100%;
+    background-color: floralwhite;
+}
+#footing p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 华文行楷;
+    font-size:20px;
+}
